@@ -1,0 +1,179 @@
+/* Centered container for the app */
+
+.dashboard-container {
+    width: 80%;
+}
+
+
+/* General styling for headers within the app */
+
+h1,
+h2 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+
+/* Form and list container */
+
+.form-container,
+.list-container {
+    margin-bottom: 20px;
+}
+
+
+/* Common class for all buttons */
+
+.button {
+    background-color: #5da7d7;
+    color: #ffffff;
+    border: none;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+    background-color: #000000;
+}
+
+.button-delete {
+    background-color: #343cdb;
+    color: #ffffff;
+    border: none;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.button-delete:hover {
+    background-color: #343cdb;
+}
+
+
+/* Common class for all input fields and selects */
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #000000;
+}
+
+
+/* Labels for better readability */
+
+label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.table-container {
+    margin: 20px;
+    overflow-x: auto;
+    /* Enables horizontal scrolling if the table is too wide */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+    padding: 12px 15px;
+    /* Light grey border for cells */
+    text-align: left;
+    border: 1px solid #5da7d7;
+}
+
+.table th {
+    background-color: #5da7d7;
+    /* Darker blue header background */
+    color: white;
+    font-size: 16px;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+    /* Zebra striping for rows, light grey */
+}
+
+.inc-exp-container {
+    margin-bottom: 30px;
+    background: #fff;
+    display: flex;
+    padding: 18px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.inc-exp-container>div {
+    flex: 1;
+    background: #fff;
+    text-align: center;
+}
+
+.inc-exp-container>div:first-of-type {
+    border-right: 1px solid #dfdfdf;
+}
+
+.balance-container {
+    text-align: center;
+}
+
+.money {
+    margin: 6px 0;
+    font-size: 22px;
+}
+
+.money.plus {
+    color: green
+}
+
+.money.minus {
+    color: red
+}
+
+
+/* .table-container {
+    margin-top: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    border: 1px solid #000000;
+    padding: 8px;
+}
+
+.table th {
+    background-color: #000000;
+    text-align: left;
+} */
+
+.expense-row {
+    background-color: #f8d7da;
+}
+
+.income {
+    color: green;
+}
+
+.expense {
+    color: red;
+}
